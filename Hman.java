@@ -8,9 +8,9 @@ public class Hman {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);                            
         Random random = new Random();
-        String[] guesses = {"petar", "isusovci", "miskovic", "krofnica"};
+        String[] guesses = {"word1", "word2", "word3", "word4"};       
 
         boolean igram = true;
         while (igram) {
